@@ -1,13 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+import App from './App';
+
+import  {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
+import BuyCoins from "./Pages/BuyCoins";
+import StartingPage from "./Pages/StartingPage";
+import CorporateDeals from './Pages/CorporateDeals';
+import OrderThankYou from './Pages/OrderThankYou'
+import TrackYourOrder from './Pages/TrackYourOrder';
+import CustomerService from './Pages/CustomerService';
+import OrderList from './Pages/OrderList';
+import RefundandReturns from './Pages/RefundandReturn';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route  exact path="/"  element={<StartingPage/>}></Route>
+        <Route  exact path="/BuyCoins"  element={<BuyCoins/>}></Route>
+        <Route  exact path="/CorporateDeals"  element={<CorporateDeals/>}></Route>
+        <Route  exact path="/OrderThankYou"  element={<OrderThankYou/>}></Route>
+        <Route  exact path="/TrackYourOrder"  element={<TrackYourOrder/>}></Route>
+        <Route  exact path="/CustomerService"  element={<CustomerService/>}></Route>
+        <Route  exact path="/OrderList"  element={<OrderList/>}></Route>
+        <Route  exact path="/RefundandReturns"  element={<RefundandReturns/>}></Route>
+
+
+
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

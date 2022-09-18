@@ -1,0 +1,121 @@
+/* Article */
+.ReadArticles p{
+  font-size: 2.6rem;
+}
+ .ReadArticles
+ {
+  background-color: #F5F8FF;
+  padding: 100px 0px 60px 0px;
+ }
+
+.ReadArticles .ArticleTop {
+    background-color: #f5f8ff;
+    text-align: center;
+  }
+  .ReadArticles .ArticleTop
+  {
+display: flex;
+flex-direction: column;
+grid-gap: 40px;
+  }
+  .ReadArticles .readmore {
+    margin-left: 134px;
+  }
+  .ReadArticles .socialIcon {
+    margin-right: 30px;
+    float: left;
+  }
+  .ReadArticles .card {
+    height: 654px;
+    width: 566px;
+    margin-left: 42px;
+    
+  }
+  .ReadArticles .cardContent{
+    padding: 30px;
+    line-height: 31px;
+  }
+  .ReadArticles .ReadArticles {
+    width: 2416px;
+    height: 1294px;
+    background-color: #f5f8ff;
+    margin-top: 131px;
+    padding-top: 131px;
+    width: 100%;
+  }
+  .ReadArticles .parag{
+    align-self: center;
+    font-family: 'Poppins';
+    letter-spacing: -0.46px;
+color: #111111;
+opacity: 1;
+font-size: 3rem;
+width: 40%;
+
+    
+  }
+  .ReadArticles .head{
+    font-family: 'Poppins';
+    width: 40%;
+    font-weight: bold;
+    font-size: 5.5rem;
+    letter-spacing: -1.8px;
+    color: #111111;
+    opacity: 1;
+    align-self: center;
+
+  }
+  .ReadArticles .cardHead {
+    text-align: left; 
+    margin-top: 38px;
+    font-size:31px ;
+  }
+  .ReadArticles .cardP {
+    margin-top: 34px;
+    margin-bottom: 64px;
+    font-size: 20px;
+    text-align: justify;
+    width: 483px;
+    height: 81px;
+    
+  }
+  .ReadArticles .circle {
+    background-color: #f5f8ff;
+    border: 1px solid #4562db;
+    height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px;
+    color: #4562db;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 13px;
+  }
+  .ReadArticles .circle1 {
+    background-color: #4562db;
+    border: 1px solid #4562db;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px;
+    font-size: 2.4rem;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 13px;
+  }
+  
+  .ReadArticles .pageNo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 18px;
+   
+  }
+  .ReadArticles .text {
+    margin-right: 38.5px;
+    margin-left: 38.5px;
+  }

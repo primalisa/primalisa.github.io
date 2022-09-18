@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px;
+}
+.maincardBuyCoins
+{
+  /* display: block; */
+  background-image: url("./images/BuyCoinsMainCardBackgroundImage.png");
+  /* background: center center/cover no-repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  height: 1103px;
+  width: 100%;
+}
+.maincardBuyCoins .container
+{
+  height: 100%;
+  margin-left:100px;
+  margin-right:100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 100px;
+}
+.maincardheading
+{
+
+  text-align: center;
+  font-size: 7.5rem;
+  font-family: Open Sans;
+
+  letter-spacing: normal;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.maincardparagraph
+{
+  text-align: center;
+  font: normal normal 400 6.5rem/4.3rem Open Sans;
+
+color: #FFFFFF;
+opacity: 1;
+}
+
+.ViewProductsbtn
+{
+  text-align: center;
+  font: normal normal 200 3.5rem/4.3rem Open Sans !important;
+  text-transform: capitalize;
+
+  opacity: 0.94;
+color: #FFFFFF;
+opacity: 1;
+  width: 386px;
+  height: 87px;
+
+}

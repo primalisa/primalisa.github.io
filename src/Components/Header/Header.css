@@ -1,0 +1,231 @@
+:root {
+  --Navbarbackground: #FFFFFF;
+  --yellowcolor: #FF9100;
+  --blackcolor: #343434;
+  --loginbtnbackground: #FF5C53;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px;
+}
+
+.Navbar {
+  background-color: var(--Navbarbackground);
+  overflow-x: hidden;
+  box-shadow: 0px 3px 38px #A78F8F29;
+
+}
+
+.Navbar .container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.Navbar .container .logo {
+  grid-row: 1/span 2;
+  align-self: center;
+  width: 230px;
+  height: 131px;
+  margin: 10px;
+
+
+
+}
+
+.Navbar .container .logo img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.Navbar .container .buttonnames {
+  font: normal normal 600 2.5rem/4.3rem Open Sans;
+  letter-spacing: -0.7px;
+  opacity: 0.99;
+  color: var(--blackcolor);
+
+}
+
+.Navbar .container .secondarycolor {
+  color: var(--yellowcolor);
+}
+
+.Navbar .container .button>span {
+  margin-right: 16px;
+}
+
+.Navbar .container.button {
+  margin-left: 20px !important;
+
+
+}
+
+.loginbtncolor {
+  color: var(--Navbarbackground) !important;
+}
+
+.Navbar .container .item3 {
+  grid-gap: 20px;
+
+
+
+}
+
+.css-1tzes49-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: var(--loginbtnbackground) !important;
+}
+
+.item2 {
+  /* justify-self: flex-end; */
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 50% 10% 10%;
+}
+
+.item2 .textfield {
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+}
+
+.item2 input {
+  font: normal normal 800 2.5rem/4.3rem Open Sans;
+  font-weight: bolder;
+  letter-spacing: -0.7px;
+  opacity: 0.99;
+  color: #5C5C5C;
+
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 100%;
+  border-radius: 15px !important;
+}
+
+.Navbar .container .item3
+{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: flex-end;
+  align-items: center;
+} */
+}
+/* @media (max-width:2310px) {
+
+  .item3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    justify-items: flex-end;
+  }
+
+} */
+@media (max-width:2310px) {
+
+  .Navbar .container .item3{
+
+   grid-gap: 10px;
+  }
+
+}
+
+@media (max-width:1900px) {
+
+  .Navbar .container {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .Navbar .container .logo {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 180px;
+    height: 100px;
+
+  }
+
+  .item3 {
+    grid-column: 1/span 2;
+  }
+
+  .item2>div {
+    align-self: center;
+  }
+
+
+}
+.button:nth-child(7):hover
+{
+  background-color: var(--loginbtnbackground);
+}
+
+@media (max-width:1600px) {
+  .Navbar .container .buttonnames {
+    font: normal normal 600 3.0rem/4.3rem Open Sans;
+  }
+  .button:nth-child(5)
+  {
+    justify-self: flex-start;
+  }
+
+  .button:nth-child(6)
+  {
+    justify-self: flex-start;
+  }
+
+  .item2 input {
+    font: normal normal 600 3.0rem/4.3rem Open Sans;
+  }
+
+  .Navbar .container {
+    grid-row-gap: 20px;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  /* .Navbar .container .item3 {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+  } */
+
+  .loginbtn {
+    height: 60px;
+    grid-column: 4 !important;
+  }
+}
+
+@media (max-width:1450px) {
+
+  .item2 > *{
+  
+     margin-left: 50px;
+     
+    }
+   
+
+    .item2
+    {
+      justify-content: space-between;
+    }
+    .item3
+    {
+      justify-content: space-between !important;
+    }
+  
+  }

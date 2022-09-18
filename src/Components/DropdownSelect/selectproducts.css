@@ -1,0 +1,50 @@
+:root
+{
+  --dropdownbackground: #323F67;
+
+}
+
+.DropdownSelect
+{
+
+height: 100%;
+grid-gap: 10px;
+}
+.container1
+{
+background-color: #323F67;
+ padding: 50px 100px 50px 100px;
+height: 100%;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root
+{
+  height: 80px;
+}
+.DropdownSelect .menuicon
+{
+  height: 80px;
+}
+.DropdownSelect .Buttons svg
+{
+  top:auto;
+ width: 50px;
+ height: 50px;
+ color: #FFFFFF;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input
+{
+
+  font: normal normal 600 2.4rem/4.3rem Open Sans;
+letter-spacing: -0.7px;
+color: #FFFFFF;
+opacity: 0.99;
+margin-left: 10px;  
+}
+.DropdownSelect .buttonnames
+{
+  font: normal normal 600 2.4rem/4.3rem Open Sans;
+letter-spacing: -0.7px;
+color: #FFFFFF;
+opacity: 0.99;
+margin-left: 10px;
+}

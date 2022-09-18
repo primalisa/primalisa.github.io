@@ -1,0 +1,47 @@
+.orderlist .container
+{
+  height: 100%;
+  padding: 50px 0 50px 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+ 
+  
+}
+
+.orderlist
+{
+  padding: 50px 0 200px 0;
+}
+@media (max-width:1710px)
+{
+
+
+.orderlist .part3
+{
+justify-content: center !important;
+}
+}
+@media (max-width:2100px)
+{
+
+
+.orderlist 
+{
+width: 90% !important;
+}
+}
+@media (max-width:2300px)
+{
+
+
+.orderlist .OrderDamage
+{
+ margin: auto;
+ grid-gap: 20px;
+ width: 35% !important; 
+}
+}
+

@@ -1,0 +1,71 @@
+.Login svg
+{
+  top:auto;
+  width: 30px;
+  height: 30px;
+  color: #000000;
+ 
+}
+.Login
+{
+  padding: 20px;
+}
+.Login .phoneinput
+{
+  text-decoration: none;
+  width: 80%;
+  height: 80px;
+  border: 1px solid #939393;
+  border-radius: 10px;
+  font: normal normal normal 2.8rem/4.3rem Open Sans;
+}
+
+.Login .phoneinput::placeholder
+{
+  text-align: left;
+font: normal normal normal 2.8rem/4.3rem Open Sans;
+padding-left: 20px;
+letter-spacing: 0px;
+color: #4D5052;
+opacity: 0.94;
+}
+
+.Login .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root
+{
+  height: 84px;
+  border: 1px solid #939393;
+  border-radius: 10px;
+}
+
+.Login .phoneinput:hover
+{
+outline: none;
+}
+
+
+.Login span svg
+{
+ 
+  width: 33px;
+  height: 33px;
+  color: #4D5052;
+
+}
+.Login .otpinput
+{
+  text-decoration: none;
+  width: 90%;
+  height: 80px;
+  border: 1px solid #939393;
+  border-radius: 10px;
+  font: normal normal normal 2.8rem/4.3rem Open Sans;
+}
+.Login .otpinput::placeholder
+{
+  text-align: left;
+font: normal normal normal 2.8rem/4.3rem Open Sans;
+padding-left: 20px;
+letter-spacing: 0px;
+color: #4D5052;
+opacity: 0.94;
+}

@@ -1,0 +1,24 @@
+.categorizeproducts
+{
+  background-color: #EAF2FF;
+  height: 100%;
+  width: 100%;
+}
+
+.categorizeproducts .buttonnames
+{
+  font: normal normal 600 3.4rem/4.3rem Open Sans;
+letter-spacing: -0.7px;
+color: #000000;
+opacity: 0.99;
+align-self: center;
+
+}
+
+.categorizeproducts .categorizeproductbuttons:hover
+{
+background-color: #4562DB;
+color: #EAF2FF;
+
+
+}

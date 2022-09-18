@@ -1,0 +1,70 @@
+:root {
+  --Navbarbackground: #FFFFFF;
+  --yellowcolor: #FF9100;
+  --blackcolor: #343434;
+  --loginbtnbackground: #FF5C53;
+}
+
+.CommonHeader
+{
+
+
+  width:100%;
+  background-color:var(--Navbarbackground) ;
+  box-shadow: 0px 3px 38px #A78F8F29;
+
+}
+a
+{
+  text-decoration: none;
+}
+.CommonHeader .container .buttonnames {
+  font: normal normal 600 2.5rem/4.3rem Open Sans;
+  letter-spacing: -0.7px;
+  opacity: 0.99;
+  color: var(--blackcolor);
+
+}
+.CommonHeader .container .logo  img{
+  align-self: center;
+  width: 153px;
+  height: 87px;
+
+
+
+}
+
+.CommonHeader .container .secondarycolor {
+  color: var(--yellowcolor);
+}
+.CommonHeader .container .button>span {
+  margin-right: 16px;
+}
+.CommonHeader .container
+{
+
+  margin-left: 180px;
+  margin-right: 180px;
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+height: 100%;
+}
+
+.CommonHeader .container .button
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+/* @media (max-width:1440px) {
+  
+
+
+.loginmodal
+{
+  top:50% !important;
+  width: 430px !important;
+  height: 300px !important;
+}
+} */

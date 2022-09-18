@@ -1,0 +1,56 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Coin .productprice
+{
+  font: normal normal 600 4.9rem/4.3rem Poppins;
+  letter-spacing: -1.37px;
+  color: #000000;
+  opacity: 0.99;
+}
+
+.Coin .button
+{
+  grid-gap: 20px;
+}
+
+.Coin .button h3
+{
+  font: normal normal 600 2.5rem/4.3rem Poppins;
+
+color: #4562DB;
+opacity: 0.99;
+}
+
+@media (max-width:1900px) {
+
+  .Coin
+  {
+    width:30% !important;
+  }
+  
+}
+@media (max-width:1440px) {
+
+  .Coin .seconditem
+  {
+   padding: 10px 0 10px 0;
+   justify-content: space-around;
+  }
+  .Coin .tworem
+  {
+    font-size: 2rem;
+  }
+}
+@media (max-width:1400px) {
+
+  .Coin
+  {
+    width:40% !important;
+  }
+  
+}
