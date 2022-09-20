@@ -18,7 +18,7 @@ const CorporateDeals=() =>
     <div>
 
     <Header></Header>
-    < MaincardCorporateDeals></ MaincardCorporateDeals>
+    <MaincardCorporateDeals></ MaincardCorporateDeals>
     <SelectLabels/>
     <Categorizeproducts/>
     <AllProductsCorporateDeals/>

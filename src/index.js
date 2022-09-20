@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route  exact path="/"  element={<StartingPage/>}></Route>
+        <Route  exact path="/"  element={<BuyCoins/>}></Route>
         <Route  exact path="/BuyCoins"  element={<BuyCoins/>}></Route>
         <Route  exact path="/CorporateDeals"  element={<CorporateDeals/>}></Route>
         <Route  exact path="/OrderThankYou"  element={<OrderThankYou/>}></Route>
