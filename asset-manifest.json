@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8545e4d7.css",
+    "main.js": "/static/js/main.2f0ae53c.js",
+    "static/js/787.358fa5de.chunk.js": "/static/js/787.358fa5de.chunk.js",
+    "static/media/BuyCoinsMainCardBackgroundImage.png": "/static/media/BuyCoinsMainCardBackgroundImage.1ef763927bd918fc27ec.png",
+    "static/media/CorporateDealsMainCardBackgroundImage.png": "/static/media/CorporateDealsMainCardBackgroundImage.373d8afb22c4eb4ba75b.png",
+    "static/media/PlatinumCoin.png": "/static/media/PlatinumCoin.41c20ff3d18ff0c70a81.png",
+    "static/media/price.jpg": "/static/media/price.5f270503d6ccbca66e72.jpg",
+    "static/media/GoldCoin.png": "/static/media/GoldCoin.9118bc85e7ffa208c926.png",
+    "static/media/signUpBackground.jpg": "/static/media/signUpBackground.f6bf7c20fe50284ddc78.jpg",
+    "static/media/SilverCoin.png": "/static/media/SilverCoin.8a2739460fcdffd2a560.png",
+    "static/media/coin.png": "/static/media/coin.0ca09aaa7f6fd75ef140.png",
+    "static/media/2gold.jpg": "/static/media/2gold.3575dba5a4ddfe0cf899.jpg",
+    "static/media/1gold.jpg": "/static/media/1gold.91aa8b543ea27ee9b4db.jpg",
+    "static/media/3gold.jpg": "/static/media/3gold.e00d3643d3d95287a00a.jpg",
+    "static/media/thankyou.png": "/static/media/thankyou.dae142f15adec2a90438.png",
+    "static/media/Logo.png": "/static/media/Logo.5aa11e16bee73d9c4735.png",
+    "static/media/message.png": "/static/media/message.2fa9aa91b6457734c43c.png",
+    "static/media/google-plus (1).jpg": "/static/media/google-plus (1).82453249cbfab8459724.jpg",
+    "static/media/pinterest (2).jpg": "/static/media/pinterest (2).aaf3a633b1d52dbb36fb.jpg",
+    "index.html": "/index.html",
+    "main.8545e4d7.css.map": "/static/css/main.8545e4d7.css.map",
+    "main.2f0ae53c.js.map": "/static/js/main.2f0ae53c.js.map",
+    "787.358fa5de.chunk.js.map": "/static/js/787.358fa5de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8545e4d7.css",
+    "static/js/main.2f0ae53c.js"
+  ]
+}
